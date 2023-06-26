@@ -2,6 +2,8 @@
 
 This Github repo hosts the LaTeX template for e61 Institute Research Notes.
 
+If you are looking for the micronote template, click [here](https://github.com/e61-Institute/micronote-template).
+
 ## How to load the template into your Overleaf
 
 1. Download a copy of the template from Github by clicking on the green "Code" button, then "Download ZIP".
