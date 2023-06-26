@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{e61}
+\ProvidesClass{e61-research-note}
           [2023/05/04 v1 e61 Institute]
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{book}}
@@ -49,6 +49,7 @@ input-symbols		= ( ) [ ] - + *,
 \RequirePackage{microtype}
 \RequirePackage{placeins}
 \RequirePackage{amsmath}
+\RequirePackage{setspace}
 
 \RequirePackage[%
 backend=biber, natbib=true, style=apa, ]{biblatex}
