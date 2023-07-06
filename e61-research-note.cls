@@ -123,7 +123,7 @@ before={\vspace{0.25\baselineskip}},after={\vspace{0.1\baselineskip}}}
 \setcounter{secnumdepth}{2}
 \setcounter{tocdepth}{2}
 
-\titleformat{\chapter}[display]{\thispagestyle{e61}\raggedright\color{green1}}{}{0pt}%
+\titleformat{\chapter}[display]{\thispagestyle{e61-research-note}\raggedright\color{green1}}{}{0pt}%
 {\fontsize{25}{32}\selectfont#1~\thechapter}[]
 \renewcommand\thechapter{}
 
@@ -131,7 +131,7 @@ before={\vspace{0.25\baselineskip}},after={\vspace{0.1\baselineskip}}}
 
 \RequirePackage{multicol}
 
-\titleformat{name=\chapter,numberless}{\thispagestyle{e61}}{}{0pt}%
+\titleformat{name=\chapter,numberless}{\thispagestyle{e61-research-note}}{}{0pt}%
 {%
 \begin{tikzpicture}[remember picture,overlay]
 %\draw[green](current page text area.north west)rectangle(current page text area.south);
@@ -230,7 +230,7 @@ anchor=west,font={\color{white}\fontsize{20pt}{23}\selectfont},
 
 \RequirePackage{fancyhdr}
 \pagestyle{fancy}
-\fancypagestyle{e61}{%
+\fancypagestyle{e61-research-note}{%
 \renewcommand{\headrulewidth}{0pt}
   \fancyhf{}%
 \fancyhead{\begin{tikzpicture}[remember picture,overlay]%draw=red,
@@ -389,7 +389,7 @@ title=Box~\thetcbcounter\ifx\hfuzz#2\hfuzz\else:~~#2\fi,
                     \fi}
 \newcommand{\section@cntformat}{\thesection\quad}%\appendixname~
 \renewcommand\thefigure{\thechapter.\arabic{figure}}%
-\def\@makechapterhead##1{\thispagestyle{e61}%
+\def\@makechapterhead##1{\thispagestyle{e61-research-note}%
   \vspace*{-60\p@}%
   {\raggedright
     %\ifnum \c@secnumdepth >\m@ne
