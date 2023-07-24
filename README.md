@@ -11,6 +11,14 @@ If you are looking for the micronote template, click [here](https://github.com/e
 3. Drag and drop the downloaded Zip file as per the instructions.
 4. Change the LaTeX compiler to XeLaTeX, otherwise nothing will compile: click on "Menu" in the top-left corner, go to the "Settings" section, click the drop-down box next to "Compiler", select "XeLaTeX".
 
+### How to replace the title image
+
+To replace the title page image, you need to upload the (appropriately dimensioned) image in **.pdf file format** to the /figures/ directory with the name **title_figure.pdf**. 
+
+This will overwrite the existing title image file.
+
+The correct dimensions of the image file are 19.56 cm x 19.13 cm (height x width).
+
 ## Helpful links
 
 Overleaf has a very large library of user guides and documentation for the LaTeX novice. 
