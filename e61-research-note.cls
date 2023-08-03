@@ -50,6 +50,7 @@ input-symbols		= ( ) [ ] - + *,
 \RequirePackage{placeins}
 \RequirePackage{amsmath}
 \RequirePackage{setspace}
+\RequirePackage{svg}
 
 \RequirePackage[%
 backend=biber, natbib=true, style=apa, ]{biblatex}
@@ -82,8 +83,8 @@ font={bf,footnotesize},justification=centering,belowskip=0pt,aboveskip=6pt}
 
 \AtBeginDocument{%
   % Adjust equation spacing
-  \addtolength\abovedisplayskip{-1\baselineskip}
-  \addtolength\belowdisplayskip{-1\baselineskip}
+  % \addtolength\abovedisplayskip{-1\baselineskip}
+  % \addtolength\belowdisplayskip{-1\baselineskip}
 }
 
 \RequirePackage{mdframed}
@@ -105,9 +106,9 @@ font={bf,footnotesize},justification=centering,belowskip=0pt,aboveskip=6pt}
 \urlstyle{same}
 
 \RequirePackage{enumitem}
-\setlist[enumerate]{nosep,label=\arabic*.,itemsep=4pt,labelindent=!, leftmargin=*,
+\setlist[enumerate]{nosep,label=\arabic*.,itemsep=4pt,labelindent=!, leftmargin=\dimexpr\leftmargin+15pt\relax,
 labelsep=3pt, before={\vspace{0\baselineskip}},align=left,after={\vspace{0.5\baselineskip}}}
-\setlist[itemize,1]{nosep,itemsep=2pt,labelindent=!, leftmargin=*,%10mm,
+\setlist[itemize,1]{nosep,itemsep=2pt,labelindent=!, leftmargin=\dimexpr\leftmargin\relax,%10mm,
 before={\vspace{0.25\baselineskip}},after={\vspace{0.1\baselineskip}}}
 
 \RequirePackage{tikzpagenodes}
