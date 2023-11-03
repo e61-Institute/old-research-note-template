@@ -25,7 +25,7 @@ ItalicFont    =PTSans-Italic.ttf]
 \RequirePackage[italic]{mathastext}%math font
 
 \newfontfamily{\Bebas}{FontsFree-Net-BebasNeue-Regular.ttf}[Path=./fonts/]
-\newfontfamily{\Caption}{Arial}
+\newfontfamily{\Caption}{PTSans-Regular}
 
 \RequirePackage[english]{babel}
 %
