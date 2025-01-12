@@ -1,4 +1,10 @@
-# e61 Institute Research Note LaTeX template
+# OLD e61 Institute Research Note LaTeX template
+
+### This template is no longer used and is preserved for archival purposes only.
+
+### Please use the current research note template [here](https://github.com/e61-Institute/portrait-research-note-template).
+
+----
 
 This Github repo hosts the LaTeX template for e61 Institute Research Notes.
 
